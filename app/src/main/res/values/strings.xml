@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Weather App Collabera</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment2"> No records found</string>
+    <string name="hello_blank_fragment"> Current Weather Fragment</string>
+
+    <string name="current_weather">Weather</string>
+    <string name="weather_list">History</string>
+    <string name="txt_not_connected">Not Connected with Internet</string>
+    <string name="location_msg_text">Getting Your Location…</string>
+    <!--GPS-->
+    <string name="gps_enable">GPS is not Enabled!</string>
+    <string name="turn_on">GPS is not Enabled Do you want to turn on GPS?</string>
+    <string name="cancel">cancel</string>
+    <string name="yes">Yes</string>
+    <string name="search">Search...</string>
+    <string name="server_issue">Something went wrong with server</string>
+    <string name="weather_updated">Weather Info Updated</string>
+    <string name="degree_celsius_symbol">°C</string>
+    <string name="label_real_feel">Real Feel</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_visibility">Visibility</string>
+    <string name="label_wind_speed">Wind speed</string>
+</resources>

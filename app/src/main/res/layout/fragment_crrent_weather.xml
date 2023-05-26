@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/v_small_margin"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/med_t_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/child_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/v_small_margin"
+            android:layout_marginTop="@dimen/v_small_margin"
+            android:layout_marginRight="@dimen/v_small_margin"
+            android:background="@drawable/button_bg">
+
+            <EditText
+                android:id="@+id/city_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/small_size"
+                android:layout_marginRight="@dimen/b_margin"
+                android:background="@null"
+                android:hint="@string/search"
+                android:paddingLeft="@dimen/v_small_margin"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/search_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/v_small_margin"
+                android:layout_marginRight="@dimen/v_small_margin"
+                android:src="@drawable/search">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:id="@+id/temprature_tv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/b_margin"
+            android:layout_margin="@dimen/b_margin"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/city_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_size_tv"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_t_size"
+            android:textStyle="normal"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/v_small_margin">
+
+            <ImageView
+                android:id="@+id/sunrise_iv"
+                android:layout_width="@dimen/image_s_size"
+                android:layout_height="@dimen/image_s_size"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_sunrise" />
+
+            <TextView
+                android:id="@+id/sun_rise_tv"
+                android:layout_width="@dimen/image_s_size"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sunrise_iv"
+                android:paddingLeft="@dimen/v_small_margin"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/sunset_iv"
+                android:layout_width="@dimen/image_s_size"
+                android:layout_height="@dimen/image_s_size"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_sunset_moon_120" />
+
+            <TextView
+                android:id="@+id/sun_set_tv"
+                android:layout_width="@dimen/image_s_size"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sunset_iv"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="@dimen/small_margin"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

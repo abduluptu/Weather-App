@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="v_small_margin">16dp</dimen>
+    <dimen name="small_margin">22dp</dimen>
+    <dimen name="mid_margin">30dp</dimen>
+    <dimen name="b_margin">50dp</dimen>
+    <dimen name="small_size">45dp</dimen>
+    <dimen name="small_t_size">16sp</dimen>
+    <dimen name="med_t_size">22dp</dimen>
+    <dimen name="large_t_size">21dp</dimen>
+    <dimen name="image_s_size">100dp</dimen>
+    <dimen name="small_size_tv">10dp</dimen>
+</resources>
